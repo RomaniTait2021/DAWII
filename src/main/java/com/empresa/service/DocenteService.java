@@ -7,7 +7,7 @@ import com.empresa.entity.FiltroDocente;
 
 public interface DocenteService {
 
-	public abstract List<Docente> listaDocente();
+	public  List<Docente> listaDocente();
 
 	public abstract Docente insertaActualizaDocente(Docente obj);
 
